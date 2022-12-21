@@ -1,0 +1,241 @@
+:root {
+    --bg1: rgb(36, 32, 32) !important;
+    --bg2: rgb(44, 42, 42) !important;
+    --body: rgb(95, 86, 86) !important;
+    --brand: rgb(194, 141, 42) !important;
+    --white: rgb(156, 154, 154) !important;
+    --p: rgb(161, 150, 150) !important;
+     
+ } 
+
+
+body {
+    font-family:  Tahoma, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+h1 {
+    font-weight: 900;
+}
+.text-primary {
+    color:rgb(194, 141, 42) !important;} 
+
+    .bg-primary {
+       background-color: rgb(194, 141, 42) !important;} 
+
+
+img {
+    width: 100%; /*to make all the images responsive*/
+
+
+}
+section{
+    padding-top: 150px;
+    padding-bottom: 160px;
+    border-bottom: 1px dotted gray;
+    margin-bottom: 50px;
+}
+
+/*Navbar*/
+.navbar {
+    background: linear-gradient(to bottom, hsla(0, 2%, 17%, 0.829) , rgba(44, 42, 42, 0.884));
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+
+/* Home Section*/
+
+#banner {
+    background: linear-gradient( to right, hsla(0, 2%, 17%, 0.856) , rgba(44, 42, 42, 0.315)), url(../images/banner.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+#banner p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--p);
+}
+#banner h1 {
+    font-weight: 900;
+    
+}
+/*  button */
+.btn {
+    padding:  15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand) ;
+}
+
+.btn-brand:hover {
+    background-color: transparent !important;
+    color: var(--brand) !important;
+    border-color: var(--brand) !important;
+}
+
+.btn-outline-brand {
+    background-color: transparent !important;
+    color: var(--brand) !important;
+    border-color: var(--brand) !important;
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand) !important;
+    color: var(--bg1) !important;
+
+}
+
+/* About section*/
+
+#about {
+    background-color: var(--white);
+    position: relative;
+    z-index: 1;
+    
+} 
+
+
+
+    
+#about h6 {
+    color: var(--brand);
+    padding-top: -15px !important;
+    border-bottom: 3px solid var(--brand);
+    margin-bottom: 50px; 
+    font-weight: 800;
+    z-index: 1;
+}
+
+#about h2 {
+    font-weight: 800;
+    margin-top: 15px;
+   
+}
+
+
+/* Category Section*/
+
+#category{
+    background-color: var(--white);
+    padding-top: 60px !important;
+    position: relative;
+    z-index: 1;
+}
+
+#category h2 {
+    color: var(--bg1) !important; 
+    font-weight: 800;
+   
+}
+
+
+#category h3 {
+    font-weight: 800;
+}
+
+.card {
+    border: none;
+    margin-bottom: 60px;
+    background-color: var(--bg1)!important;
+    cursor: pointer;
+    max-height: 500px;
+}
+
+.card-img {
+    overflow: hidden;
+    border-radius: 0%;
+ 
+}
+
+.card-img img {
+    transition: all 1.3s ease;
+    
+   
+}
+
+.card-img img:hover {
+    transform: scale(1.2);
+}
+
+#category span {
+    font-weight: 700;
+}
+
+
+ /*Testimonials*/
+#reviews {
+    background-color: var(--white);
+    padding-top: 60px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonials {
+    padding : 30px;
+    background-color: var(--bg2);
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: var(--brand);
+}
+
+#reviews h2 ,h5 {
+    font-weight: 800;
+}
+
+/*Appointment*/
+
+#contact {
+    background: linear-gradient( to right, hsla(0, 2%, 17%, 0.856) , rgba(44, 42, 42, 0.315)), url(../images/banner.jpg);
+    background-size: cover;
+    min-height: 100vh; }
+
+#contact h2 {
+    font-weight: 800;
+}
+
+form {
+    background-color: var(--bg2);
+    z-index:1;
+    padding: 30px;
+}
+
+form .form-control , .form-select {
+    border-radius: 0;
+    margin-top: 15px;
+    
+    
+}
+
+form input , select {
+    height: 50px;
+}
+
+
+footer {
+    background-color: var(--white);
+}
+
+#footer h2 {
+    font-weight: 700;
+}
+
